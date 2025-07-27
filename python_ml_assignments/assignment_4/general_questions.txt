@@ -1,0 +1,31 @@
+Ques 1. What are the assumptions of linear regression?
+Ans.Assumptions of Linear Regression:
+1. Linearity:
+The relationship between the input variables (X) and output (y) should be linear.
+2. Independence:
+Observations should be independent of each other. No autocorrelation, especially in time series.
+3. Homoscedasticity:
+The variance of errors (residuals) should remain constant across all values of X.
+4. Normality of Residuals:
+The errors should be normally distributed. This is important for confidence intervals and hypothesis testing.
+5. No Multicollinearity:
+Independent variables should not be highly correlated with each other. High multicollinearity affects the reliability of coefficient estimates.
+6. No Measurement Error in X:
+Input variables should be measured accurately. Errors in independent variables can bias the model.
+
+Ques 2. When should you use logistic regression instead of linear regression?
+Ans.Logistic regression should be used instead of linear regression when the target variable is categorical, especially for binary classification problems.
+
+Ques 3. What is the interpretation of coefficients in logistic regression?
+Ans.In logistic regression, the coefficients represent the change in the log odds of the target variable 
+    being 1 for a one-unit increase in the predictor variable, holding other variables constant.
+
+Ques 4. What is the difference between sigmoid and softmax functions?
+Ans.The sigmoid function maps a single input to a value between 0 and 1, used for binary classification, 
+    while the softmax function maps multiple inputs to a probability distribution over classes, used for multi-class classification.
+
+Ques 5. Why is R-squared not suitable for evaluating logistic regression models?
+Ans.R-squared is not suitable for logistic regression because it is designed for linear regression with continuous outcomes, 
+    whereas logistic regression deals with categorical outcomes and requires metrics like accuracy, precision, recall, or AUC-ROC for evaluation.
+
+
