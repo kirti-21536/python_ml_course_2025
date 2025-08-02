@@ -1,3 +1,5 @@
+## Task 1:questions and answers on Naive Bayes Classifier
+
 ## Task 2: Spam Detection using MultinomialNB
 
 ### Dataset
@@ -41,6 +43,8 @@
 - Decision Trees can handle complex patterns but might overfit if not pruned.
 
 
+## Task 4: Conceptual Questions and answers on Decision Trees
+
 ## Task 5: Decision Tree on Titanic Dataset
 - Used Titanic dataset from Seaborn.
 - Preprocessed missing values and encoded 'sex' and 'embarked' columns.
@@ -63,6 +67,8 @@
 - Beyond a certain point, test accuracy drops even as training accuracy increases.
 - This highlights the importance of tuning and validation.
 
+
+## Task 7: Questions and answers on Ensemble Learning
 
 ## Task 8: Random Forest vs Decision Tree
 - Trained both a `DecisionTreeClassifier` and a `RandomForestClassifier` on the Titanic dataset.
